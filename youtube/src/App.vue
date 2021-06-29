@@ -2,22 +2,25 @@
   <div id="app">
     
     <SearchBar @search="onSearch" />
+    <VideoListItem :videoList="videoList" @search="onSearch" />
   </div>
 </template>
 
 <script>
 import SearchBar from './components/SearchBar.vue'
+import VideoListItem from './components/VideoListItem.vue'
 import axios from 'axios'
 
 export default {
   name: 'App',
   data: function () {
     return {
-   
+      videoList: []
     }
   },
   components: {
-    SearchBar
+    SearchBar,
+    VideoListItem
   },
   methods: {
     onSearch: function () {
@@ -25,7 +28,7 @@ export default {
 
       const url = 'https://www.googleapis.com/youtube/v3/search'
       const key = process.env.VUE_APP_KEY
-      console.log(key)
+      
       axios({
         url: url,
         method: 'GET',
@@ -36,8 +39,10 @@ export default {
         }
       }).then(res => {
         this.$store.dispatch('youtubeData', res.data.items)
+        this.videoList = res.data.items
+        console.log(res.data.items)
       })
-    
+
  
     }
   }
