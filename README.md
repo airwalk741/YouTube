@@ -1,6 +1,6 @@
 
 
-# ![image-20210630202447787](README.assets/image-20210630202447787.png)Youtube
+# <img src="README.assets/image-20210630202646261.png" alt="image-20210630202646261" style="zoom:50%;" /> Youtube
 
 > homework는 props, emit만 이용해서 데이터를 전달했다.
 >
