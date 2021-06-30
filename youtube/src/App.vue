@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    
-    <SearchBar @search="onSearch" />
-    <VideoListItem :videoList="videoList" @search="onSearch" />
+    <header>
+      <SearchBar @search="onSearch" />
+    </header>
+    <section>
+      <VideoListItem :videoList="videoList" @search="onSearch" />
+    </section>
   </div>
 </template>
 
@@ -50,5 +53,16 @@ export default {
 </script>
 
 <style>
+
+header, section {
+  margin: auto;
+  width: 80%;
+  padding: 1rem 0;
+}
+
+#app {
+  height: 1000px;
+
+}
 
 </style>
