@@ -50,3 +50,12 @@
 - [**이미지 transaction**](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 
 - [**Viewport**](https://velog.io/@pandati0710/CSS-viewport%EB%9E%80)
+
+
+
+
+
+### 아직 해보고 싶은 것들
+
+- Github Actions 이용해서 CI/CD 해보기
+
