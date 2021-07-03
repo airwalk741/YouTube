@@ -30,7 +30,7 @@ export default {
       const query = this.$store.state.searchData
 
       const url = 'https://www.googleapis.com/youtube/v3/search'
-      const key = process.env.VUE_APP_KEY
+      const key = 'AIzaSyBVYW9OVfH9jPVlq6i84VS-zP5ndEuF30M'
       
       axios({
         url: url,
