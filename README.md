@@ -6,9 +6,9 @@
 >
 > 이번 프로젝트는 vuex도 함께 이용해서 구현하고자 한다.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c88aaaf1-e2bf-46a3-9771-d94fd688a6b6/deploy-status)](https://app.netlify.com/sites/my-you-tube/deploys)
 
-
-
+s
 
 ### 1. Structure (Homework)
 
