@@ -8,7 +8,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c88aaaf1-e2bf-46a3-9771-d94fd688a6b6/deploy-status)](https://app.netlify.com/sites/my-you-tube/deploys)
 
-s
+
 
 ### 1. Structure (Homework)
 
@@ -55,7 +55,5 @@ s
 
 
 
-### 아직 해보고 싶은 것들
-
-- Github Actions 이용해서 CI/CD 해보기
+### - 배포는 했지만 API_kEY 를 Local 저장소에 담아 두었기 때문에 검색을 되지 않는다.
 
