@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <header>
       <SearchBar @search="onSearch" />
     </header>
@@ -30,7 +30,7 @@ export default {
       const query = this.$store.state.searchData
 
       const url = 'https://www.googleapis.com/youtube/v3/search'
-      const key = process.env.VUE_APP_KEY
+      const key = 'AIzaSyBVYW9OVfH9jPVlq6i84VS-zP5ndEuF30MUE_APP_KEY'
       
       axios({
         url: url,
