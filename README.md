@@ -2,25 +2,13 @@
 
 # <img src="README.assets/image-20210630202646261.png" alt="image-20210630202646261" style="zoom:50%;" /> Youtube
 
-> homework는 props, emit만 이용해서 데이터를 전달했다.
->
-> 이번 프로젝트는 vuex도 함께 이용해서 구현하고자 한다.
+
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c88aaaf1-e2bf-46a3-9771-d94fd688a6b6/deploy-status)](https://app.netlify.com/sites/my-you-tube/deploys)
 
 
 
-### 1. Structure (Homework)
-
-![image-20210628225304252](README.assets/image-20210628225304252.png)
-
-
-
-![image-20210628225314806](README.assets/image-20210628225314806.png)
-
-
-
-### 2. Video and Thumbnail
+### 1. Video and Thumbnail
 
 ![image-20210629231506618](README.assets/image-20210629231506618.png)
 
@@ -28,7 +16,7 @@
 
 
 
-### 3. CSS
+### 2. CSS
 
 ![image-20210630202121443](README.assets/image-20210630202121443.png)
 
@@ -57,3 +45,4 @@
 
 ### - 배포는 했지만 API_kEY 를 Local 저장소에 담아 두었기 때문에 검색을 되지 않는다.
 
+https://my-you-tube.netlify.app/
